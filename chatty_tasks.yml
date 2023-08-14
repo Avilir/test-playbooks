@@ -6,5 +6,22 @@
     num_messages: 50
   tasks:
     - debug:
-        msg: "This is a debug message: {{ item }}"
-      with_sequence: 'count={{ num_messages }}'
+        msg: "This is a debug message: 01"
+    - debug:
+        msg: "This is a debug message: 02"
+    - debug:
+        msg: "This is a debug message: 03"
+    - debug:
+        msg: "This is a debug message: 04"
+    - debug:
+        msg: "This is a debug message: 05"
+    - debug:
+        msg: "This is a debug message: 06"
+    - debug:
+        msg: "This is a debug message: 07"
+    - debug:
+        msg: "This is a debug message: 08"
+    - debug:
+        msg: "This is a debug message: 09"
+    - debug:
+        msg: "This is a debug message: 10"
